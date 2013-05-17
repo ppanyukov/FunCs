@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Fun.Csex.40")]
+[assembly: AssemblyTitle("FunCs")]
 [assembly: AssemblyDescription("Functional extensions and support for C#")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Fun.Csex.40")]
+[assembly: AssemblyProduct("FunCs")]
 [assembly: AssemblyCopyright("Copyright © Philip Panyukov 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

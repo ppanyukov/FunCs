@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fun.Csex.40", "src\Fun.Csex\Fun.Csex.40.csproj", "{709752C4-F5D3-4261-88D8-3771BDDD5D6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunCs.40", "src\FunCs\FunCs.40.csproj", "{709752C4-F5D3-4261-88D8-3771BDDD5D6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,7 +7,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 
-namespace Fun.Csex
+namespace FunCs
 {
     // Experimental portions, without home yet
     public static partial class FunFun
