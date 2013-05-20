@@ -10,7 +10,7 @@
 namespace FunCs
 {
     // Experimental portions, without home yet
-    public static partial class FunFun
+    public static partial class z
     {
 
         // Possible variation of curry?

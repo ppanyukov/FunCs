@@ -47,18 +47,18 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FunFun.compose.cs" />
-    <Compile Include="FunFun.aaa.cs" />
+    <Compile Include="z.compose.cs" />
+    <Compile Include="z.aaa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FunFun.curry.cs" />
+    <Compile Include="z.curry.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FunFun.function.cs" />
+    <Compile Include="z.function.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FunFun.exprimental.cs" />
+    <Compile Include="z.exprimental.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

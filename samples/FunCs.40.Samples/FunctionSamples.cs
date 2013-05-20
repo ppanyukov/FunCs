@@ -36,7 +36,7 @@
 
 
             // But this does:
-            var square = FunFun.function((int x) => x * x);
+            var square = z.function((int x) => x * x);
 
 
             // The above is equivalent of writing.
@@ -61,9 +61,9 @@
             // The type of the 'var' is Func<TResult>, or Func<T1, TResult> etc
             // depending on the number of the arguments.
 
-            var fWithZeroArgs = FunFun.function(() => 10);
-            var fWithOneArgs = FunFun.function((int x1) => x1);
-            var fWithTwoArgs = FunFun.function((int x1, int x2) => x1*x2);
+            var fWithZeroArgs = z.function(() => 10);
+            var fWithOneArgs = z.function((int x1) => x1);
+            var fWithTwoArgs = z.function((int x1, int x2) => x1*x2);
 
             Console.WriteLine("Type of FunFun.function(() => 10): {0}", fWithZeroArgs.GetType().Name);
             Console.WriteLine("Type of FunFun.function((int x1) => x1): {0}", fWithOneArgs.GetType().Name);
