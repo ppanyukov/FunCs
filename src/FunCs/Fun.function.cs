@@ -12,7 +12,7 @@ namespace FunCs
     using System;
 
     // Using 'var' to declare lamdas.
-    public static partial class z
+    public static partial class Fun
     {
         // ReSharper disable InconsistentNaming
 

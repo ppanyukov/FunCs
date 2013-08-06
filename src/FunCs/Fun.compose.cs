@@ -12,7 +12,7 @@ namespace FunCs
     using System;
 
     // Functional composition
-    public static partial class z
+    public static partial class Fun
     {
         // ReSharper disable InconsistentNaming
 

@@ -15,7 +15,7 @@ namespace FunCs
     using System;
 
     // Partial function application (currying)
-    public static partial class z
+    public static partial class Fun
     {
         // ReSharper disable InconsistentNaming
 

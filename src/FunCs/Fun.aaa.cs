@@ -46,7 +46,7 @@ namespace FunCs
     ///     var r1 = plus(2);               // = 10 + 2 = 12
     ///     var r2 = plus(5);               // = 10 + 5 = 15
     /// </remarks>
-    public static partial class z
+    public static partial class Fun
     {
     }
 }
