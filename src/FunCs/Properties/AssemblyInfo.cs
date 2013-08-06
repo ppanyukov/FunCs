@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("FunCs")]
 [assembly: AssemblyDescription("Functional extensions and support for C#")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Philip Panyukov")]
 [assembly: AssemblyProduct("FunCs")]
 [assembly: AssemblyCopyright("Copyright © Philip Panyukov 2013")]
 [assembly: AssemblyTrademark("")]
