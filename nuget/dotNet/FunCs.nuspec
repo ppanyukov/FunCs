@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>FunCs</id>
+    <version>1.0.0</version>
+    <title>FunCs: functional extensions for C#</title>
+    <authors>Philip Panyukov</authors>
+    <owners>Philip Panyukov</owners>
+    <summary>FunCs is lightweight functional extensions for C#.</summary>
+    <description>
+        Functional programming syntax support for C#, for things which either don't exist in C#, or a pain. 
+        Includes: 
+        1) use 'var' to declar lambdas: var f = Fun.function(()=>10);
+        2) function composition;
+        3) partial function application (currying).
+
+        MIT license.
+    </description>
+    <releaseNotes>
+        (v1.0.0) First beta release.
+    </releaseNotes>
+
+    <projectUrl>https://github.com/ppanyukov/FunCs/</projectUrl>
+    <licenseUrl>https://github.com/ppanyukov/FunCs/blob/master/LICENSE.txt</licenseUrl>
+    <copyright>2013 Philip Panyukov</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    
+    <tags>BDD C# F# .Net</tags>
+  </metadata>
+</package>
