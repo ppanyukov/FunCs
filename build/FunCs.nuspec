@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>FunCs</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>FunCs: functional extensions for C#</title>
     <authors>Philip Panyukov</authors>
     <owners>Philip Panyukov</owners>
@@ -25,6 +25,6 @@
     <copyright>2013 Philip Panyukov</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     
-    <tags>BDD C# F# .Net</tags>
+    <tags>C# F# .Net functional syntax</tags>
   </metadata>
 </package>
