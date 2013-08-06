@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<project name="FunCs" default="build" basedir="..">
+    <description>The Hello World of build files.</description>
+
+    <property name="src" value="src"/>
+
+    <target name="clean" description="remove all generated files">
+    </target>
+
+    <target name="build" description="compiles the source code">
+    </target>
+
+    <target name="nuget" description="packages the output to the nuget package">
+    </target>
+</project>
