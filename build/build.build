@@ -1,15 +1,48 @@
 <?xml version="1.0"?>
-<project name="FunCs" default="build" basedir="..">
-    <description>The Hello World of build files.</description>
+<project name="FunCs" default="build" basedir=".">
 
-    <property name="src" value="src"/>
+    <property name="msbuild" value="C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe"/>
+    <property name="nuget" value="tools/nuget.exe"/>
+    <property name="sln" value="../FunCs.sln"/>
+    <property name="src" value="../src"/>
+    <property name="test" value="../test"/>
+    <property name="out" value="../published"/>
 
-    <target name="clean" description="remove all generated files">
+    <!-- These are the same in MSBuild -->
+    <!-- Leave them here even though we don't use directly -->
+    <property name="Configuration"         value="Release"  overwrite="false" />
+    <property name="TreatWarningsAsErrors" value="true"     overwrite="false" />
+
+    <!-- Clean targets -->
+    <!-- helper build target, called by others -->
+    <target name="clean" description="Removes any build artifacts">
+        <echo message="In target: ${target::get-current-target()}"/>
+        <delete>
+            <fileset>
+                <include name="${out}/**" />
+            </fileset>
+        </delete>
+
+        <exec program="${msbuild}" commandline="${sln} /t:Clean /p:Configuration=${Configuration}"/>
     </target>
 
     <target name="build" description="compiles the source code">
+        <exec program="${msbuild}" commandline="${sln} /t:Build /p:Configuration=${Configuration} /p:TreatWarningsAsErrors=${TreatWarningsAsErrors}"/>
     </target>
 
     <target name="nuget" description="packages the output to the nuget package">
+        <copy todir="${out}/dotNet/lib/net40">
+            <fileset basedir="${src}/FunCs/bin/${Configuration}/v4.0">
+                <include name="**.*"/>
+            </fileset>
+        </copy>
+
+        <copy todir="${out}/dotNet">
+            <fileset basedir=".">
+                <include name="FunCs.nuspec"/>
+            </fileset>
+        </copy>
+
+        <exec program="${nuget}" commandline="pack FunCs.nuspec -BasePath ${out}/dotNet -OutputDirectory ${out}" />
     </target>
 </project>
