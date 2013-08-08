@@ -30,6 +30,8 @@ And what is easier to convert to a method should you want to?
 Restrictions:
 
 - Can only use inside a method: can't use var to declare instance members :(
+- Up to 9 input parameters;
+- It's a `Func`, so must have a return value, can't do `void.
 
 
 
@@ -69,7 +71,7 @@ Restrictions:
 
 ## Getting the stuff
 
-This is a sort of a "beta" at the moment. More stuff will be addded.
+This is a sort of a "beta" at the moment. More stuff will be added.
 
 ### .NET Version Support
 Currently only 4.0 and 4.5.
